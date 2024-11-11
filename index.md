@@ -92,8 +92,11 @@ Rachel and Josh demonstrate how students can:
 
 ## Project Team
 
-- Justin Campos (Project Lead)
-- [Other team members' names will be added here]
+- Justin Campos
+- Jayda Decker
+- Karina Park
+- Lyon Singleton
+- Baishen Wang
 
 ## Development Status
 
@@ -111,7 +114,12 @@ We welcome contributions and feedback! To get involved:
 - Contact the development team
 - Follow our progress updates
 
-[Insert mockup screenshots when available]
+## Mockup Pages
+
+### Landing Page
+![Landing page mockup](images/landing-mockup.png)
+
+*Landing page design showcasing the app's main features and user interface*
 
 ---
 Last Updated: November 11, 2024
