@@ -109,7 +109,7 @@ This project is currently in the initial development phase. We are:
 ## Get Involved
 
 We welcome contributions and feedback! To get involved:
-- Visit our [GitHub repository](https://github.com/UH-uber/UH-uber.github.io)
+- Visit our [GitHub repository](https://github.com/UH-Uber/UH-Uber-SourceCode)
 - Report issues or suggest features
 - Contact the development team
 - Follow our progress updates
