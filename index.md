@@ -113,7 +113,7 @@ View our team contract [here](https://docs.google.com/document/d/1-mcSvmThZ-aZ6_
 
 ## M1 Page
 
-https://github.com/orgs/UH-Uber/projects/1
+[https://github.com/orgs/UH-Uber/projects/1](https://github.com/orgs/UH-Uber/projects/1)
 
 ## Deployment Link on Vercel 
 
