@@ -117,7 +117,7 @@ View our team contract [here](https://docs.google.com/document/d/1-mcSvmThZ-aZ6_
 
 ## Deployment Link on Vercel 
 
-https://uh-uber-source-code.vercel.app/
+[https://uh-uber-source-code.vercel.app/](https://uh-uber-source-code.vercel.app/)
 
 
 ## Get Involved
