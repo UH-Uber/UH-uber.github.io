@@ -131,12 +131,17 @@ We welcome contributions and feedback! To get involved:
 - Contact the development team
 - Follow our progress updates
 
+
+
+## Current state
+![Landing page](images/LandingPage.png)
+
 ## Mockup Pages
 
-### Landing Page
-![Landing page mockup](images/landing-mockup.png)
 
-*Landing page design showcasing the app's main features and user interface*
+
+
+
 
 ---
-Last Updated: November 11, 2024
+Last Updated: November 19, 2024
