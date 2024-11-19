@@ -135,9 +135,9 @@ We welcome contributions and feedback! To get involved:
 
 ## Current state
 ![Landing page](images/LandingPage.png)
-![Profile](images/LandingPage.png)
-![Ride Posts](images/LandingPage.png)
-![Ride Map](images/LandingPage.png)
+![Profile]
+![Ride Posts]
+![Ride Map]
 
 
 ## Mockup Pages
