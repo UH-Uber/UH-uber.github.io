@@ -145,7 +145,7 @@ Profile page
 ![Profile mockup](images/findridemockup.png)
 Create a ride request
 ![Profile mockup](images/Availablerides.png)
-All ride requests
+All available ride requests
 
 
 
