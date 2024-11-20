@@ -140,6 +140,7 @@ We welcome contributions and feedback! To get involved:
 
 ## Mockup Pages
 
+![Profile mockup](images/profilemockup.png)
 
 
 
