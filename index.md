@@ -142,7 +142,7 @@ We welcome contributions and feedback! To get involved:
 
 ![Profile mockup](images/profilemockup.png)
 ![Profile mockup](images/findridemockup.png)
-![Profile mockup](images/Availablerides.png)
+![Profile mockup](images/Available rides.png)
 
 
 
