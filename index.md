@@ -146,7 +146,8 @@ Profile page
 Create a ride request
 ![Profile mockup](images/Availablerides.png)
 All available ride requests
-
+![Profile mockup](images/RideStatus.png)
+Current status 
 
 
 
