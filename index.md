@@ -126,6 +126,185 @@ View our team contract [here](https://docs.google.com/document/d/1-mcSvmThZ-aZ6_
 [https://uh-uber-source-code.vercel.app/](https://uh-uber-source-code.vercel.app/)
 
 
+
+# UH Manoa Ride Share Documentation
+
+## User Guide
+
+### Getting Started
+
+#### Landing Page
+![Landing page](images/LandingPage.png)
+The landing page is your gateway to the UH Manoa Ride Share system. Here you can:
+- View an overview of the ride-sharing service
+- Access the registration and login options
+- Learn about the platform's key features
+- See community impact statistics
+
+#### User Registration and Login
+To use the system, you'll need to create an account:
+1. Click the "Sign Up" button
+2. Enter your UH email address and create a password
+3. Complete your profile information
+4. Verify your email address
+
+### Core Features
+
+#### Profile Management
+![Profile page](images/profilemockup.png)
+On your profile page, you can:
+- Upload a profile picture
+- Update your personal information
+- Set your ride preferences
+- View your ride history and ratings
+- Manage your account settings
+
+#### Finding a Ride
+![Available rides](images/Availablerides.png)
+To find available rides:
+1. Navigate to the "Find a Ride" page
+2. Use the search filters to specify:
+   - Departure location
+   - Destination
+   - Date and time
+   - Preferred number of passengers
+3. Browse through available rides
+4. View driver profiles and ratings
+5. Select and request your preferred ride
+
+#### Creating a Ride Request
+![Create a ride request](images/findridemockup.png)
+To offer or request a ride:
+1. Click on "Create a Ride Request"
+2. Fill in the required details:
+   - Pick-up location
+   - Destination
+   - Date and time
+   - Available seats
+   - Cost sharing preferences
+3. Submit your request
+
+#### Tracking Ride Status
+![Ride Status](images/RideStatus.png)
+Monitor your rides through the status page:
+- View accepted ride requests
+- Track ongoing rides
+- Check ride history
+- Manage ride details and arrangements
+
+### Safety Features
+- Real-time location sharing during rides
+- Emergency contact system
+- User verification process
+- Rating and review system
+
+## Developer Guide
+
+### System Requirements
+- Node.js (v18 or higher)
+- npm or yarn package manager
+- Git
+- PostgreSQL database
+
+### Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/UH-Uber/UH-Uber-SourceCode.git
+cd UH-Uber-SourceCode
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up environment variables:
+- Copy `.env.example` to `.env`
+- Configure the following variables:
+  ```
+  DATABASE_URL=your_database_url
+  NEXTAUTH_SECRET=your_secret
+  NEXTAUTH_URL=http://localhost:3000
+  ```
+
+4. Set up the database:
+```bash
+npx prisma migrate dev
+npx prisma generate
+```
+
+5. Run the development server:
+```bash
+npm run dev
+```
+
+### Project Structure
+
+```
+UH-Uber-SourceCode/
+├── src/
+│   ├── app/           # Next.js pages and routing
+│   ├── components/    # Reusable React components
+│   ├── lib/          # Utility functions and configurations
+│   └── styles/       # CSS modules and global styles
+├── prisma/           # Database schema and migrations
+├── public/           # Static assets
+└── tests/           # Test files
+```
+
+### Key Components
+
+#### Authentication (src/app/auth)
+- Handles user registration and login
+- Manages session state
+- Implements password recovery
+
+#### Ride Management (src/app/find-ride, src/app/request-ride)
+- Ride creation and search functionality
+- Request handling
+- Status updates
+
+#### User Profiles (src/app/profile)
+- Profile management
+- User preferences
+- Rating system
+
+### Database Schema
+The application uses Prisma ORM with PostgreSQL. Key models include:
+- User
+- Ride
+- Request
+- Rating
+- Location
+
+### Testing
+Run the test suite:
+```bash
+npm run test
+```
+
+### Deployment
+The application is deployed on Vercel:
+1. Connect your GitHub repository to Vercel
+2. Configure environment variables
+3. Deploy using Vercel's automated pipeline
+
+### Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+### Troubleshooting
+Common issues and solutions:
+- Database connection errors: Check your DATABASE_URL
+- Authentication issues: Verify NEXTAUTH configuration
+- Build errors: Clear .next directory and node_modules
+
+For more information, visit our [GitHub repository](https://github.com/UH-Uber/UH-Uber-SourceCode).
+
+
 ## Get Involved
 
 We welcome contributions and feedback! To get involved:
@@ -136,21 +315,7 @@ We welcome contributions and feedback! To get involved:
 
 
 
-## Current state
-![Landing page](images/LandingPage.png)
 
-
-
-## Mockup Pages
-
-![Profile mockup](images/profilemockup.png)
-Profile page
-![Profile mockup](images/findridemockup.png)
-Create a ride request
-![Profile mockup](images/Availablerides.png)
-All available ride requests
-![Profile mockup](images/RideStatus.png)
-Current status 
 
 
 
